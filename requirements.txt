@@ -79,7 +79,6 @@ systemd-python==234
 tk==0.1.0
 twilio==7.2.0
 Twisted==18.9.0
-ufw==0.36
 urllib3==1.25.10
 virtualenv==20.10.0
 virtualenv-clone==0.5.7
