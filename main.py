@@ -87,7 +87,7 @@ class Comment(db.Model):
     parent_blog = db.relationship("BlogPost", back_populates="comments")
 
 
-# db.drop_all()
+db.drop_all()
 db.create_all()
 
 
