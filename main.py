@@ -11,6 +11,7 @@ from sqlalchemy.exc import IntegrityError
 from flask_gravatar import Gravatar
 from forms import CreatePostForm, RegisterUserForm, LoginForm, CommentForm
 
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
 ckeditor = CKEditor(app)
